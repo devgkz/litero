@@ -1,11 +1,11 @@
 # Litero
 
-Extremely simple router for small web applications.
-Small footprint and no overhead.
+**Extremely simple router for small web applications.
+Small footprint and no overhead.**
 
 Router class in this package route HTTP requests by URL pattern to callbacks. When the current request URL matches one of the patterns, the respective callback function is called to handle the request.
 
-Note it's component not support PSR-7 HTTP Message Interface out of the box.
+**Note:** It's component not support PSR-7 HTTP Message Interface out of the box.
 
 ## Installing
 

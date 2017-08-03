@@ -6,7 +6,7 @@
  * @copyright Copyright (c) 2017 Eugene Dementyev.
  * @license   https://opensource.org/licenses/BSD-3-Clause
  *
- * Routes may contents exact or  wildcard-rules.
+ * Routes may contents exact or  wildcard rules.
  * 
  * Windcards example:
  * `/page/:seg` - any characters in one segment like `/page/qwerty` or `/page/123`;
@@ -20,9 +20,8 @@
  */
 
 require 'vendor/autoload.php';
-/** 
- * @var Bit55\Litero\Router 
- */
+
+/* @var $router Bit55\Litero\Router */
 $router = Bit55\Litero\Router::fromGlobals();
 
 // Add single rule with Closure handler.
