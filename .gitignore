@@ -2,6 +2,5 @@
 composer.phar
 composer.lock
 node_modules
-nbproject
 phpunit.xml
 /vendor/

@@ -117,7 +117,7 @@ class Router
      */
     public function add($route, $handler = null)
     {
-        if ($handler != null && !is_array($route)) {
+        if ($handler !== null && !is_array($route)) {
             $route = array($route => $handler);
         }
         $this->routes = array_merge($this->routes, $route);
