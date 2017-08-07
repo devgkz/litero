@@ -15,7 +15,6 @@ class ExampleController
     public static function firstAction()
     {
         echo 'Hello from '.__METHOD__.'!';
-        //echo '<br>Request URI: ';
     }
     
     /**

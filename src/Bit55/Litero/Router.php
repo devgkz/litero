@@ -171,7 +171,7 @@ class Router
      */
     public function executeHandler($handler = null, $params = null)
     {
-        if ($handler == null) {
+        if ($handler === null) {
             throw new \InvalidArgumentException(
                 'Request handler not setted out. Please check '.__CLASS__.'::isFound() first'
             );
