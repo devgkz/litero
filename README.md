@@ -5,6 +5,8 @@ Small footprint and no overhead.**
 
 Router class in this package maps HTTP-requests by URL pattern to callbacks.
 
+![](https://insight.sensiolabs.com/projects/6416cd8f-d3b1-4307-a185-a2618a0aa48f/big.png)
+
 **Note:** It's component not support PSR-7 HTTP Message Interface out of the box.
 
 ## Installing
