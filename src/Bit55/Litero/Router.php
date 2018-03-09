@@ -169,7 +169,7 @@ class Router
      * @throws \InvalidArgumentException
      * @throws \RuntimeException
      */
-    public function executeHandler($handler = null, $params = null)
+    public function executeHandler($handler = null, $params = array())
     {
         if ($handler === null) {
             throw new \InvalidArgumentException(
